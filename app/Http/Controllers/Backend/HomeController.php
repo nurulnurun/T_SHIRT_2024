@@ -11,6 +11,6 @@ class HomeController extends Controller
     {
         // dd('Home Page');
 
-        return view('Backend.Master');
+            return view('Backend.Master');
     }
 }
