@@ -27,7 +27,7 @@
                 <td>{{ $Brand_Item->brand_id }}</td>
                 <td>{{ $Brand_Item->brand_name }}</td>
                 <td>{{ $Brand_Item->brand_status }}</td>
-                <td>{{ $Brand_Item->brand_image }}/td>
+                <td>{{ $Brand_Item->brand_image }}</td>
                 <td>{{ $Brand_Item->brand_description }}</td>
             <td>
                 <a class="btn btn-success btn-sm" href="">Edit</a>

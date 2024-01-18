@@ -26,7 +26,7 @@
 
         <div class="mb-3">
             <label for="brandImage" class="form-label">Brand Image</label>
-            <input type="file" class="form-control" id="" name="brand_image" placeholder="Upload Brand Image">
+            <input type="file" class="form-control" id="" name="brand_image" placeholder="Upload a Brand Image File">
         </div>
 
         <div class="mb-3 form-check">
