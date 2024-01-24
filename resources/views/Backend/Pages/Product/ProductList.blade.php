@@ -28,7 +28,7 @@
                 <td>{{ $Product_Item->product_id }}</td>
                 <td>{{ $Product_Item->product_name }}</td>
                 <td>
-                    <img src="{{ url('Uploads_File'.$Product_Item->product_image) }}" alt="">
+                    <img width="20%" src="{{ url('/Uploads_File/'.$Product_Item->product_image) }}" alt="">
                 </td>
                 <td>{{ $Product_Item->product_price }}</td>
                 <td>{{ $Product_Item->product_stock }}</td>

@@ -15,8 +15,8 @@
 							<span class="nav-text">Categories</span>
 						</a>
                         <ul aria-expanded="false">
-							<li><a href="index.html">Add new Categories</a></li>
-							<li><a href="index-2.html">Categories List</a></li>
+							<li><a href="{{ route('create.new.category.form') }}">Add new Categories</a></li>
+							<li><a href="{{ route('categories.list') }}">Categories List</a></li>
 						</ul>
                     </li>
                     <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">

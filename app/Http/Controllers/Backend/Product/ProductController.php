@@ -31,9 +31,9 @@ class ProductController extends Controller
         if($Product_Post->hasFile('product_image'))
         {
             $file = $Product_Post->file('product_image');
-            $fileName = date('Ymdhis').'.'.$file->getClientOriginalExtension();
+            $fileName=date('Ymdhis').'.'.$file->getClientOriginalExtension();
 
-            $file->storeAs('/Uploads_File', $fileName);
+            $file->storeAs('/Uploads',$fileName);
         }
 
         Product::create([

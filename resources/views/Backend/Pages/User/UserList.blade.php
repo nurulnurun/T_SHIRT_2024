@@ -5,7 +5,7 @@
 <div>
     <h1>User List</h1>
     <div>
-        <a href="#" class="btn btn-success btn-lg">Create new User </a>
+        <a href="" class="btn btn-success btn-lg">Create new User </a>
     </div>
 </div>
 

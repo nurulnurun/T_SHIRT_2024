@@ -3,7 +3,7 @@
 @section('Main Content')
 
 <div>
-    <h1>Categories List</h1> <a href="#" class="btn btn-success btn-sm" style = "float:right; margin-top:-50px">Create new Category</a>
+    <h1>Categories List</h1> <a href="{{ route('create.new.category.form') }}" class="btn btn-success btn-sm" style = "float:right; margin-top:-50px">Create new Category</a>
 </div>
 
 <div>

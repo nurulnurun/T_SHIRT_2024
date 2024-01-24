@@ -7,7 +7,7 @@
 </div>
 
 <div>
-    <form action = "{{ route('product.store') }}" method = "post" enctype = "multipart/form-data">
+    <form action = "{{ route('product.store') }}" method = "post" enctype="multipart/form-data">
             @csrf
         <div class="mb-3">
             <label for="productID" class="form-label">Product ID</label>
